@@ -1,0 +1,104 @@
+.category-page{
+   display: flex;
+
+}
+.category-menu{
+    padding-left: 20px;
+    height: 100vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.slides-title:hover{
+background-color: rgb(84, 131, 84);
+color: whitesmoke;
+border-radius: 10px;
+cursor: pointer;
+}
+.slides-title{
+    margin-bottom: 25px;
+    width: fit-content;
+   
+}
+.title img{
+    height: 60px;
+    width: 60px;
+    margin-top: -10px;
+    ;
+    
+}
+#categories{
+    color:rgb(84, 131, 84); 
+    font-weight: bolder;
+}
+.title{
+    display: flex;
+    margin-left: 40%;
+}
+.title h1{
+    background: linear-gradient(to right, #77Bf44 20% , black) ;
+    color: transparent;
+    -webkit-background-clip: text;
+    
+   
+}
+.dropdown button{
+    margin-top: 20px;
+    height: 50px;
+    width:150px;
+    border-radius: 20px;
+    background-color: #be56c6b9;
+    outline: none;
+    border: none;
+}
+.cards{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+   gap: 5;
+   
+
+}
+.card{
+    height: auto;
+   width:250px;
+   padding: 15px;
+   margin: 20px;
+}
+.image{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.image img{
+    height: 24px;
+    width: 24px;
+}
+
+    
+        
+   
+.desc{
+    display: flex;
+    justify-content: space-between;
+}
+.desc p{
+    
+    font-size: 15px;
+}
+.desc h5,h4{
+    margin-top: 8px;
+}
+.desc h4{
+    color:#be56c6b9 ;
+}
+.category-details{
+    width: 70%;
+}
+#Hanging-Plants,#Cacti,#green-plants,#flower-plants,#gifts,#tree-plants{
+margin-top: -50px;
+}
+ a{
+    color: black;
+}
